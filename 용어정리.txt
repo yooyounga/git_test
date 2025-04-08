@@ -1,0 +1,33 @@
+<주의사항>
+1. develop 브랜치에만 커밋하기 
+   master/main에는 커밋 금지
+
+2. 커밋 되돌리기 하지 않기 -> 되돌리기는 하지 말고 원복 후 커밋하면 된다. 
+
+<git>
+
+stage :커밋할 파일(리허설)
+commit : 깃에 등록
+.gitignore => 커밋된 자료는 ignore할수 없다. 초기에 설정해야 함
+branch :코드주머니 ,버전 
+- develop :개발주머니
+- master 안전화 백업
+merge : 브랜치 내용을 병합
+
+<git hub>
+대칭키알고리즘(ssh)
+- 공개키(public key)
+- 개인키(private key)
+
+repository :github의 저장소(폴더와 브랜치 저장)
+push :git폴더 통째로 원격에 등록 =>대칭키 알고리즘을 통해 진행됨.코드 변경분만 올리는것도 push라고 한다.
+
+clone : 폴더째로 원격에서 내컴퓨터로 가져오기
+checkout : 브랜치만 원격에서 가져오기(클론된 이후)
+pull : github에서 변경부분만 가져오기 (받아들이기)
+
+올리는 순서:코드변경 후 commit->push
+
+origin/master origin/develop
+
+https://github.com/marobiana
