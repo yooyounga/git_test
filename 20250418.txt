@@ -1,0 +1,18 @@
+boot dashbord=> 서버의 개념
+
+Framework vs 라이브러리
+
+- Spring Framework => 설정 복잡 xml-> 클래스 @annotation
+- Spring boot => 최소한의 설정 
+
+
+SpringQuiz
+com.quiz
+
+http://localhost:8080/test
+http =>프로토콜
+
+
+src/main/java => java
+src/main/resources =>java를 제외한 나머지 파일 (html도 이쪽으로 들어가는 추세)
+src/main/webapp=>html,jsp
